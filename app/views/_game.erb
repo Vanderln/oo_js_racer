@@ -1,0 +1,11 @@
+<section class='track1'></section>
+<section class='track2'></section>
+<section class="winner-1"><%= player_1.name %> WINS</section>
+<section class='winner-2'><%= player_2.name %> WINS</section>
+<form method="get" action="/">
+  <input type="submit" value="Play again?">
+</form>
+
+<script>
+  var players = <%= { player_1: player_1.name, player_2: player_2.name }.to_json %>
+</script>
