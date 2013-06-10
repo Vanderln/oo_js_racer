@@ -6,7 +6,7 @@ $(document).ready(function() {
 
   var no_winner = true;
 
-  for(var i=0; i<5; i++) {
+  for(var i=0; i<20; i++) {
     var cell = "<div data-location='"+i+"'></div>";
     $('.track1').append(cell);
     $('.track2').append(cell);
